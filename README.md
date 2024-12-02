@@ -1,3 +1,5 @@
+![My Image](screenshot.png)
+
 # Simple Storage
 
 This is a simple storage replica of freecodecamp video on blockchain development. <br>
