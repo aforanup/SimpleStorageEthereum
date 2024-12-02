@@ -10,3 +10,4 @@ This is a simple storage replica of freecodecamp video on blockchain development
 -   chai/mocha for testing provided default with truffle
 -   created on template of pet-shop by truffle
 -   jquery
+-   solidity
