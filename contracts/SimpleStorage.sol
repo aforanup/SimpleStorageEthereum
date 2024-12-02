@@ -6,7 +6,7 @@ contract SimpleStorage {
         uint favouriteNumber;
         string name;
     }
-
+    uint public countNumbers;
     uint public favouriteNumber;
 
     People[] public people;
@@ -23,5 +23,6 @@ contract SimpleStorage {
     function addPerson(uint _number, string memory _name) public {
         people.push(People(_number, _name));
         nameToNum[_name] = _number;
+        countNumbers++;
     }
 }

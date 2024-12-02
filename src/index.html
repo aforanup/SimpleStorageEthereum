@@ -19,9 +19,31 @@
   </head>
   <body>
     <div class="container">
-      <div id="favouriteNumber"></div>
-      <div id="list"></div>
-      <div id="nameToFav"></div>
+      <div id="list">
+        <ul id="storageList">
+          
+        </ul>
+      </div>
+      <div id="favouriteNumber">
+          <!-- <form> -->
+            <input id="favNumToSet" type="text" placeholder="just to add a favourite Number">
+          <!-- </form> -->
+          <button class="btn btn-danger" onclick="App.setFavouriteNum()">setFavouriteNumber</button>
+          <button class="btn btn-primary"  onclick="App.getFavNum()">getFavouriteNumber</button>
+          <p id="favNumHere">0</p>
+      </div>
+      <div id="nameToFav">
+        <!-- <form> -->
+          <input id="personNameAdd" type="text" placeholder="name to add">
+          <input id="personNumberAdd" type="text" placeholder="number to add">
+          <button onclick="App.setPersonNum()" class="btn btn-danger">addPersonNumber</button>
+        <!-- </form> -->
+        <!-- <form> -->
+          <input id="personName" type="text" placeholder="name of person for number">
+          <button class="btn btn-primary" onclick="App.getPersonNum()">getPersonNumber</button>
+          <p id="personNumData">0</p>
+        <!-- </form> -->
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
